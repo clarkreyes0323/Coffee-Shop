@@ -1,0 +1,77 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+/* Home */
+#home {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #f8f1e7;
+}
+
+#home h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+/* Section headings */
+section h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Cards */
+.card {
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Products */
+#products {
+    background-color: #f8f9fa;
+}
+
+/* About */
+#about {
+    background-color: #f8f1e7;
+}
+
+/* Contact */
+#contact {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
